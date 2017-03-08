@@ -1,0 +1,19 @@
+{
+  "server":
+  {
+    "name" : "proxy-dev",
+    "addr" : "3.3.3.3:8888"
+  },
+  "backend":[
+    {
+      "name" : "dev-1",
+      "location" : "1.1.1.1:1234",
+      "mtu" : 1024
+    },
+    {
+      "name" : "dev-2",
+      "location" : "2.2.2.2:1234",
+      "mtu" : 1024
+    }
+  ]
+}
